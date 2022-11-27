@@ -1,0 +1,205 @@
+*{
+    margin: 2;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: #fff;
+    --Platinum:#E8EBe4;
+    --Gray:#BEC1BB;
+    --BlueBell:#A491D2;
+    --Soap:#CDC3E6;
+    --PaleLavender:#D4DCFF;
+    --DarkJungle:#1B1F21;
+    --OuterSpace:#444749;
+    --OldSilver:#828485;
+}
+
+/* principal section */
+
+.principal_container{
+    display: flex;
+    width: 1252px;
+    height: 677px;
+    background-color: #A491D2;
+    border: 1px solid #E8EBe4;
+
+}
+.principal {
+    background-color: #fff;
+    flex: 0 0 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #E8EBe4;
+}
+.principal_cuerpo {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal_texto {
+    margin-top: 1rem;
+    text-align: center;
+}
+.principal_texto p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+    width: 550px;
+}
+.principal_texto h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.principal_logo img {
+    width: 250px;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+/* Chat section */
+
+.chat_container{
+    flex: 0 0 250px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+/* chat status (maria) */
+.chat_status{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    height: 60px;
+}
+.img_maria img{
+    width: 35px;
+    border-radius: 90%;
+    border: 1px solid #E8EBe4;
+    display: flex;
+    margin-right: px;
+    height: 35px;
+}
+.texto_maria h2{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444749;
+    display: flex;
+    margin: 0px;
+}
+.texto_maria p{
+    font-size: 10px;
+    color: #BEC1BB;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+.maria_profile_container{
+    display: flex;
+    background-color: #fff;
+    margin: 7px 0px;
+}
+.img_maria{
+    display: flex;
+    background-color: #fff;
+    margin: 12px;
+    
+
+}
+.texto_maria{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5px 0px;
+    padding: 10px;
+    margin: 7px 0px;
+    justify-content: space-around;
+   
+    
+}
+.icons{
+    background-color:#fff;
+    margin-top: 15px;
+    margin-right: 4px;
+    margin-left: 25px;
+    padding: 1px;
+    color: #828485;
+    display: flex;
+    justify-content: space-between;
+    width: 45px;
+}
+.fa-regular{
+    padding-top: 1px;
+}
+
+/* New chat */
+   
+.new_chat{
+    display: flex;
+    flex:0 0 95px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #E8EBe4;
+}
+.new_chat button{
+    background-color: #A491D2;
+    height: 40px;
+    padding: 2px 20px;
+}
+
+.new_chat h2{
+    font-size: 13px;
+    padding: 0px 35px 0px 35px;
+    color: #fff;
+    font-family:'Roboto', sans-serif;
+}
+
+/* Profiles */
+.profile_container{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.imagen_profile img{
+    width: 45px;
+    border: 1px solid #E8EBe4;
+    border-radius: 90%;
+    display: flex;
+}
+.profile_user{
+    border-bottom: 1px solid #E8EBe4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 20px 55px 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    
+   
+}
+.chat_status{
+
+    border-bottom:1px solid #E8EBe4 ;
+}
+.profile_text h2{
+    font-family:'Roboto', sans-serif;
+    height: 10px;
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.profile_text p{
+    font-family: 'Open Sans', sans-serif;
+    height: 10px;
+    padding-top: 0px;
+    
+}
+.profile_text{
+    padding-right:  20px;
+    margin: 0px;
+}
